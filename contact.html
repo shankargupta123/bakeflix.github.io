@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    
+
+</head>
+
+<body>
+
+    <!---------------HEAD--------------------->
+    <header class="header">
+        <!-- <div class="wrapper container"> -->
+            <div class="logo">
+                <img src="image/logo4.png" alt="logo">
+            </div>
+           <!-- <section class="" -->
+            <nav class="navbar">
+                <ul class="navitems">
+                    <li class="navitem"><a href="mumswebsite.html">Home</a> </li>
+                    <!-- <li class="navitem"><a href="#"></a> -->
+                    <!-- <li class="navitem"><a href="#">About Us</a> </li> -->
+                    <li class="navitem"><a href="gallery1.html">Gallery</a> </li>
+                    <li class="navitem"><a href="guide.html">Guide</a> </li>
+                    <li class="navitem"><a href="contact.html">Contact</a> </li>
+                    <!-- <li class="navitem"><a href="#">Reviews</a> </li> -->
+                </ul>
+            </nav>
+           <!-- <div class="bgimg">
+            <div class="bgcontent">
+                <h1> 
+                    "Fresh and Home baked !"
+                </h1> -->
+
+            </div>
+           </div>
+        <!-- </div> -->
+    </header>
+
+<!-- ----------------MAIN HTML-------------- -->
+<!-- https://docs.google.com/forms/d/e/1FAIpQLSfPtenel-d33ajLJcWrKDyYSbFLxO5K8HQRCSalDW9jAtL8PA/viewform?usp=pp_url&entry.926322666=Vidhi+Agarwal&entry.1388355428=vidhi@gmail.com&entry.2114475686=122345678 -->
+    <main class="outercontainer">
+        <div class="container contact-wrapper">
+            <h2>Contact Us</h2>
+            <h3>We'd love to bake a cake for you!</h3>
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfPtenel-d33ajLJcWrKDyYSbFLxO5K8HQRCSalDW9jAtL8PA/formResponse" method="post" target="hidden_iframe" id="custom_form">
+                <input name="entry.926322666" type="text" placeholder="Enter Your Name">
+                <input name="entry.1388355428" type="email" placeholder="me@example.com" required>
+                <input name="entry.2114475686" type="tel" placeholder="Phone Number" required>
+                <br><br>
+             
+               
+               
+        
+        </fieldset>
+
+        <input type="Submit" value="Submit">
+            </form>
+            
+
+        </div>
+
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+    </main>
+
+    <script type="text/javascript">
+        document.getElementById('custom_form').onsubmit = function() {
+            setTimeout(function() {
+                window.location.href = "thankyou.html";
+            }, 1000); // Redirect after a short delay to ensure the form is submitted
+            return true; // Allow the form submission to proceed
+        }
+    </script>
+
+    <!----------------------FOOTER------------------>
+<footer class="footer">
+
+    <div>
+ <p>
+     Bakeflix &copy; 2024, All Rights Reserved
+ </p>
+ 
+    </div>
+ 
+ </footer>
+</body>
+</html>
