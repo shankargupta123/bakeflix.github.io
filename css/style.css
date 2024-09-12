@@ -1168,7 +1168,47 @@ input[type=submit]{
 
     }
 
-
+/* ----------------------GUIDE PAGE------------------------------------------------------- */
+.guide-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+     width:100%;
+     /* border: 3px solid blue; */
+     gap: 40px;
+     justify-content: center;
+     padding: 40px 0;
+ }
+ 
+ .guide-header{
+     margin-top: 30px;
+     text-align: center;
+     font-weight: 700;
+ }
+ 
+ .guide{
+    width: 80%;
+   border-collapse: collapse;
+ 
+ }
+ 
+ caption{
+     font-size: 2.5rem;
+     font-weight: 550;
+ }
+ 
+ .guide th{
+     text-align: left;
+     padding:9px;
+     background-color: lightpink;
+     color: ghostwhite;
+     
+ }
+ 
+ .guide td{
+     border-bottom:1px solid pink;
+     padding: 5px;
+    
+ }
 
 
         }
@@ -1303,5 +1343,47 @@ input[type=submit]{
         object-fit: contain;
     } 
     
+    /* ----------------------GUIDE PAGE------------------------------------------------------- */
+.guide-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+     width:100%;
+     /* border: 3px solid blue; */
+     gap: 40px;
+     justify-content: center;
+     padding: 40px 0;
+ }
+ 
+ .guide-header{
+     margin-top: 30px;
+     text-align: center;
+     font-weight: 700;
+ }
+ 
+ .guide{
+    width: 90%;
+   border-collapse: collapse;
+ 
+ }
+ 
+ caption{
+     font-size: 2.5rem;
+     font-weight: 550;
+ }
+ 
+ .guide th{
+     text-align: left;
+     padding:9px;
+     background-color: lightpink;
+     color: ghostwhite;
+     
+ }
+ 
+ .guide td{
+     border-bottom:1px solid pink;
+     padding: 5px;
+    
+ }
+
 
      }
